@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Ma maison</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#05070d">
+<meta name="color-scheme" content="dark">
+<meta name="author" content="Lahbib.AI">
+<meta name="application-name" content="Ma maison">
+<meta name="description" content="Application domotique premium avec maison 3D interactive">
+<link rel="manifest" href="manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Ma maison">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="apple-touch-startup-image" href="icons/splash-1206x2622.png" media="(device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3)">
+<link rel="apple-touch-startup-image" href="icons/splash-1179x2556.png" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3)">
+<link rel="apple-touch-startup-image" href="icons/splash-1290x2796.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3)">
+<link rel="apple-touch-startup-image" href="icons/splash-1320x2868.png" media="(device-width: 440px) and (device-height: 956px) and (-webkit-device-pixel-ratio: 3)">
+<link rel="apple-touch-startup-image" href="icons/splash-1640x2360.png" media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2)">
+<link rel="stylesheet" href="css/app.css">
+<style>html,body{background:#05070d}</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="sheet-layer"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<div id="confirm" hidden><div class="cbox"><p></p><div class="btn-row"><button class="btn sec" data-c="no">Annuler</button><button class="btn danger" data-c="yes">OK</button></div></div></div>
+<div id="boot"><div class="bl"><svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>Ma maison<small class="boot-by">v1.6.1 · by Lahbib.AI</small></div></div>
+<noscript><p style="color:#fff;padding:24px">Cette application nécessite JavaScript.</p></noscript>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
